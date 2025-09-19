@@ -12,6 +12,8 @@ gem "sqlite3", ">= 2.1"
 # minimagic
 #gem 'mimemagic', '~> 0.4.3'
 
+#devise
+gem 'devise'
 
 # error
 gem "net-ssh"

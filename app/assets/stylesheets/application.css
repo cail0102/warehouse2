@@ -1,10 +1,18 @@
-/*
- * This is a manifest file that'll be compiled into application.css.
- *
- * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
- * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
- * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
- * depending on specificity.
- *
- * Consider organizing styles into separate files for maintainability.
- */
+
+.large-button {
+  display: inline-block;
+  padding: 15px 30px; /* Esto hace el botón grande */
+  font-size: 1.5em; /* Esto aumenta el tamaño de la letra */
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
+  border: none;
+  border-radius: 8px; /* Bordes redondeados */
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px; /* Para separarlo del texto de arriba */
+}
+
+/* Opcional: Para cambiar el color al pasar el mouse por encima */
+.large-button:hover {
+  background-color: #0056b3;
+}
